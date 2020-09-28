@@ -38,13 +38,15 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
+          Thanks to Nick Wessaert, Emma Matthews Digital Content Production, Jess Bailey, and
+          Jessica S. Irvin for beautiful photos
+        </p>
+        <p className="footer__text">
           © {new Date().getFullYear()} - Template developed by{' '}
           <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
             Jacobo Martínez
           </a>
         </p>
-
-        {isEnabled && <GithubButtons />}
       </Container>
     </footer>
   );
