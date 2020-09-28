@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Grace To | Developer', // e.g: 'Name | Developer'
   lang: 'en, cn, vn', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -18,9 +18,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    "I'm a senior majoring in Software Engineering at San Jose State University. I'll be graduating in June 2021. Looking for joining a professional environment to utilize my kills",
+  paragraphTwo: 'Front-end development focused and interested in testing',
+  paragraphThree:
+    '"If you want to live a happy life, tie it to a goal, not to people or things" - Albert Einstein',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -30,11 +32,12 @@ export const projectsData = [
     id: nanoid(),
     img: 'port.jpg',
     title: 'My Portfolio',
-    info: 'Created with Gatsby using starter template including animations and deployed on Netlify',
+    info:
+      'Created with Gatsby using starter template including animations, React, Gatsby, Bootstrap, SCSS and deployed on Netlify',
     info2:
       'In-progress A/B Testing with Netlify to compare different versions using Google Analytics plugin tool',
     url: '',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/SangT/my-portfolio-site', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
