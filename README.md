@@ -1,4 +1,4 @@
-My portfolio site inspired from **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
+My portfolio site was inspired from **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
 
 ## Others versions 👥
 
