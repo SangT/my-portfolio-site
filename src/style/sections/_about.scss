@@ -55,6 +55,11 @@
           text-align: center;
         }
 
+        &-quote {
+          font-style: italic;
+          text-align: left;
+        }
+
         &--important {
           background: darken($secondary-color, 1%);
           display: inline-block;
