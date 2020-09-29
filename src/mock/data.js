@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: '',
   paragraphOne:
     "I'm a senior majoring in Software Engineering at San Jose State University. I'll be graduating in June 2021. Looking forwards to joining a professional environment to utilize my kills",
   paragraphTwo: 'Front-end development focused and interested in testing',
@@ -43,8 +43,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'famlog.jpg',
     title: 'FAMLOG',
-    info: '',
-    info2: '',
+    info:
+      'Used HTML, CSS for web interface, PHP for server-side and MySQL to implement RDBMS and 3-tier architecture',
+    info2: 'Synchronized users’ list for tracking household shopping list',
     url: '',
     repo: 'https://github.com/CS157A-Team39-FAMLOG/famlog', // if no repo, the button will not show up
   },
@@ -52,8 +53,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'mobile.jpg',
     title: 'SGuard',
-    info: '',
-    info2: '',
+    info:
+      'Applied MVC to implement this iOS app in Swift, utilize UIKit for user interface and framework for app features',
+    info2: 'Managed Firebase for user data storage',
     url: '',
     repo: 'https://github.com/CMPE137-HiFicus/SGuard', // if no repo, the button will not show up
   },
