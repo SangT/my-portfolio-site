@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "I'm a senior majoring in Software Engineering at San Jose State University. I'll be graduating in June 2021. Looking for joining a professional environment to utilize my kills",
+    "I'm a senior majoring in Software Engineering at San Jose State University. I'll be graduating in June 2021. Looking forwards to joining a professional environment to utilize my kills",
   paragraphTwo: 'Front-end development focused and interested in testing',
   paragraphThree:
     '"If you want to live a happy life, tie it to a goal, not to people or things" - Albert Einstein',
@@ -33,7 +33,7 @@ export const projectsData = [
     img: 'port.jpg',
     title: 'My Portfolio',
     info:
-      'Created with Gatsby using starter template including animations, React, Gatsby, Bootstrap, SCSS and deployed on Netlify',
+      'Created with Gatsby using starter template including animations, React, Gatsby, Bootstrap, Sass and deployed on Netlify',
     info2:
       'In-progress A/B Testing with Netlify to compare different versions using Google Analytics plugin tool',
     url: '',
@@ -80,9 +80,4 @@ export const footerData = {
       url: 'https://github.com/SangT',
     },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
