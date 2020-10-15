@@ -20,10 +20,10 @@ export const aboutData = {
   img: '',
   paragraphOne:
     "I'm a senior majoring in Software Engineering at San Jose State University. I'll be graduating in June 2021. Looking forwards to joining a professional environment to utilize my kills",
-  paragraphTwo: 'Front-end development focused and interested in testing',
+  paragraphTwo: 'Front-end development focused. Interested in testing and product management',
   paragraphThree:
     '"If you want to live a happy life, tie it to a goal, not to people or things" - Albert Einstein',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1kE7XcGZMmZUOmRvOaZFXzbvSCqC9MWd1/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -44,8 +44,8 @@ export const projectsData = [
     img: 'famlog.jpg',
     title: 'FAMLOG',
     info:
-      'Used HTML, CSS for web interface, PHP for server-side and MySQL to implement RDBMS and 3-tier architecture',
-    info2: 'Synchronized users’ list for tracking household shopping list',
+      'Used HTML, CSS for web interface, PHP for server-side and MySQL to implement RDBMS and 3-tier architecture. Synchronized users’ list for tracking household shopping list',
+    info2: 'Kept track of the team progress, ensured to meet the project requirements',
     url: '',
     repo: 'https://github.com/CS157A-Team39-FAMLOG/famlog', // if no repo, the button will not show up
   },
@@ -55,7 +55,7 @@ export const projectsData = [
     title: 'SGuard',
     info:
       'Applied MVC to implement this iOS app in Swift, utilize UIKit for user interface and framework for app features',
-    info2: 'Managed Firebase for user data storage',
+    info2: 'Managed Firebase for user data storage. Adapted new plans to meet the project outcomes',
     url: '',
     repo: 'https://github.com/CMPE137-HiFicus/SGuard', // if no repo, the button will not show up
   },
