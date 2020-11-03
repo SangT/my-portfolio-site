@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: '',
+  img: 'profile_pic.jpg',
   paragraphOne:
     "I'm a senior majoring in Software Engineering at San Jose State University. I'll be graduating in June 2021. Looking forwards to joining a professional environment to utilize my kills",
   paragraphTwo: 'Front-end development focused. Interested in testing and product management',
